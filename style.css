@@ -1,10 +1,28 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
-
-
-
+.fun {
+  
+    font-family: 'Poppins', sans-serif;
+    
+    color: black;
+      
+}
+.fun img{
+    z-index: 2;
+}
+.marco{
+   font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: bolder
+    color: black;
+    position: relative;
+    top: 50vh;
+   
+}
 .containre{
     height: 100vh;
     width: 100%;
@@ -24,13 +42,27 @@ align-items: center;
 
 }
 .logo{
-    width: 160px;
-    cursor: pointer;
+    
+    display: block;
+ border-top-left-radius: 100px;
+ -webkit-border-top-left-radius: 100px;
+ -moz-border-top-left-radius: 100px;
+ border-bottom-right-radius: 100px;
+ -webkit-border-bottom-right-radius: 100px;
+ -moz-border-bottom-right-radius: 100px;
 }
 nav{
     flex: 1;
-text-align: right;
+    padding-left: 60px;
+text-align: left;
 display: flex;
 justify-content: space-between;
 align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+
+    
 }
